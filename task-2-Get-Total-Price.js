@@ -5,7 +5,7 @@ function getTotalPrice(list, type) {
         item = list[product];
         if (item.type === type) {
             total += item.price
-        } else {total}
+        }
     }
     return total;
 }
